@@ -197,13 +197,13 @@ header{
   /*Req 12*/
   .about, .client, .method-image, .contact-image{
     /*Your code here:*/
-    grid-column: 3 / 2;
+    grid-column: 3 / span 2;
   }
 
   /*Req 13*/
   .about-image, .client-image, .method, .contacts{
     /*Your code here:*/
-    grid-column: 2 / 2;
+    grid-column: 2 / span 2;
   }
 }
 
